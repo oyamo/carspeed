@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#fae"
+            app:cardCornerRadius="7dp"
+            android:layout_margin="10dp"
+
+            android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="30dp"
+                android:text="12.0km/hr"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:id="@+id/speed"
+                />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.0km/hr"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:id="@+id/numberPlate"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.0km/hr"
+            android:layout_marginTop="5dp"
+            android:id="@+id/from"
+            android:layout_marginStart="20dp"
+            style="@style/TextAppearance.AppCompat.Caption"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/to"
+            android:text="12.0km/hr"
+            style="@style/TextAppearance.AppCompat.Caption"
+
+            />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
